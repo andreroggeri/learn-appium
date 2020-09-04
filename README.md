@@ -26,7 +26,7 @@ Sometimes the application has different behavior between platforms, and the PO/T
 
 This is solved by using Spring dependency injection framework to inject the PO in to the step definitions.
 
-All PO's should have an `interface` defined and this interface should be used in the tests.
+All PO's should have an `interface` defined and it should be used in the tests.
 
 If a PO is specific for a platform (Android/iOS), it should be implemented in the corresponding package: 
  - `com.learnappium.pageobject.impl.android` for Android PO's
