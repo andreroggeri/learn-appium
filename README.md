@@ -5,12 +5,13 @@ It uses the [Minitask](https://github.com/redlor/Minitask) as the app under test
 
 
 ## Toolset
-This code is written in Java and uses the following libraries / frameworks
+The code is written in Java and uses the following libraries / frameworks
 
  - **Appium** for driving the application on a mobile device
  - **Cucumber** for writing scenarios in natural language
  - **JUnit** for assertions
  - **Spring** for dependency injection
+ - **Faker** for generating random fake data
  
 ## Page Objects
 The PageObjects (PO)s abstracts the actual implementation from the screen and provides an interface to driving it naturally.
